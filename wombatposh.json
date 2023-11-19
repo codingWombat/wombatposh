@@ -54,7 +54,7 @@
           "template": " \uf0e7 "
         },
         {
-          "type": "exit",
+          "type": "text",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
           "foreground": "#ffffff",
