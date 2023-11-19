@@ -39,7 +39,7 @@
           "powerline_symbol": "\ue0b0",
           "foreground": "#193549",
           "background": "#fffb38",
-          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
+          "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
           "properties": {
             "fetch_stash_count": true,
             "fetch_status": true,
@@ -47,6 +47,7 @@
           }
         },
         {
+
           "type": "dotnet",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
