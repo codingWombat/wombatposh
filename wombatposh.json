@@ -70,7 +70,8 @@
         }
       ]
     },
-    { "type": "rprompt",
+    {
+      "type": "rprompt",
       "alignment": "right",
       "segments": [
         {
@@ -89,5 +90,10 @@
         }
       ]
     }
-  ]
+  ],
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "#ffffff",
+    "template": "🖥️: "
+  }
 }
